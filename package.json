@@ -1,0 +1,51 @@
+{
+  "name": "travel-app",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "typecheck": "tsc",
+    "prettier": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@mantine/carousel": "^7.10.2",
+    "@mantine/core": "^7.10.2",
+    "@mantine/dates": "^7.10.2",
+    "@mantine/form": "^7.10.2",
+    "@mantine/hooks": "^7.10.2",
+    "@remix-run/css-bundle": "^2.9.2",
+    "@remix-run/node": "^2.9.2",
+    "@remix-run/react": "^2.9.2",
+    "@remix-run/server-runtime": "^2.9.2",
+    "@remix-run/v1-route-convention": "^0.1.4",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/remix": "2.9.2-patch.2",
+    "dayjs": "^1.11.11",
+    "embla-carousel-react": "^7.1.0",
+    "isbot": "^4",
+    "openai": "^4.52.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.9.2",
+    "@remix-run/eslint-config": "^2.9.2",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.38.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "3.3.2",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
