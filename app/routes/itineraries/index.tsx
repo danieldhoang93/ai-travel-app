@@ -169,7 +169,7 @@ function TripCard({ trip }: TripCardProps) {
     return travelLocations.length > 1 && !loading;
   }, [travelLocations, loading]);
 
-  const apiKey = 'sk-proj-71VnAIjRPXFsMy4MnW9cT3BlbkFJCKhw7UQaLMqwa8azEBby';
+  const apiKey = '';
   async function fetchChatCompletion() {
     setLoading(true);
     // check local storage first and return if possible
